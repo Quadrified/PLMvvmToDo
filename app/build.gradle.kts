@@ -73,8 +73,8 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
 
     // Dagger-Hilt
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.android.compiler)
+    implementation(libs.hilt.android.v250)
+    kapt(libs.hilt.android.compiler.v250)
     implementation(libs.androidx.hilt.lifecycle.viewmodel)
     kapt(libs.androidx.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
@@ -94,4 +94,8 @@ dependencies {
 // Allow references to generated code
 kapt {
     correctErrorTypes = true
+}
+
+hilt {
+    enableAggregatingTask = true
 }

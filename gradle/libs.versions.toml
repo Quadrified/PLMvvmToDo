@@ -1,6 +1,8 @@
 [versions]
 agp = "8.4.1"
 hiltAndroid = "2.51.1"
+hiltAndroidCompiler = "2.50"
+hiltAndroidVersion = "2.50"
 hiltCompiler = "1.2.0"
 hiltLifecycleViewmodel = "1.0.0-alpha03"
 kotlin = "1.9.0"
@@ -8,9 +10,9 @@ coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
-lifecycleRuntimeKtx = "2.8.1"
+lifecycleRuntimeKtx = "2.8.2"
 activityCompose = "1.9.0"
-composeBom = "2024.05.00"
+composeBom = "2024.06.00"
 navigationCompose = "2.7.7"
 roomKtx = "2.6.1"
 kotlinxCoroutinesAndroid = "1.8.0"
@@ -28,6 +30,8 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx"
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomKtx" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+hilt-android-compiler-v250 = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+hilt-android-v250 = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroidVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
